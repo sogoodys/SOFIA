@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+
+/* 상품 설명 영역 */
+
+#productDetail {
+   position: relative;
+   top: 250px;
+   left: 200px;
+   width: 300px;
+}
+
+#productDetail h1{
+    text-align: center;
+    font-family: NotoSR;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #5c5a5a;
+    width: 180px;
+    padding-bottom: 30px;
+    left: 20px;
+  }
+
+
+#productDetail p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#productDetail .space {
+  position: relative;
+  left: 50px;
+}
+
+/* 이미지 슬라이더 영역 */
+.animation_canvas3 {
+    position: relative;
+    width: 664px;
+    overflow: hidden;
+    left: 600px;
+    bottom: 100px;
+    
+
+  }
+  
+  .slider_panel3 {
+    width: 1992px;
+    position: relative;
+  }
+  
+  .slider_image3 {
+    width: 664px;
+    height: 543px;
+    float: left;   
+  }
+  
+  .control_panel3 {
+    position: absolute;
+    top: 510px;
+    left: 312px;
+    height: 13px;
+    overflow: hidden;
+  }
+  
+  .control_button3 {
+    position: relative;
+    cursor: pointer;
+    background: url(img/point_button.png);
+    width: 12px;
+    height: 46px;
+    float: left;
+    opacity: 0.8;
+  }
+  
+  .control_button3:hover {
+    top: -16px;
+  }
+  
+  .control_button3.active {
+    top: -31px;
+  }
+  
+  .left_control3 {
+    position: absolute;
+    top: 170px;
+    left: 5px;
+    cursor: pointer;
+  }
+  
+  .right_control3 {
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    cursor: pointer; 
+  } 
+  
+  /* 이미지 슬라이더 영역 끝 */
+
+  /* 디자이너 영역 */
+
+  #designerDetail {
+    position: relative;
+    width: 1280px;
+    height: 200px;
+    border: 1px solid rgb(228, 222, 222);
+    background-color: rgb(228, 222, 222);
+    bottom: 40px;
+    display: flex;
+  }
+
+  #designerDetail:hover{
+    background-color: rgb(116, 117, 117);
+    border: 1px solid rgb(116, 117, 117);
+  }
+
+  #designer {
+    position: relative;
+    margin-left:100px;
+    display: flex;
+    top: 50px;   
+  }
+
+  #brandD{
+    position: relative;
+    margin-left: 100px;
+    display: flex; 
+    top: 50px;
+  }
+
+  #designer h3 {
+    margin-left: 10px;
+
+  }
+
+  #designer p{
+    position: relative;
+    top:40px;
+    right: 68px;
+    line-height: 18px;
+
+  }
+
+  #brandD h3 {
+    margin-left: 10px;
+  }
+
+  #brandD p{
+    position: relative;
+    top:40px;
+    right: 50px;
+  }
+
+  /* other funiture1 영역 */
+
+  #otherfun1 {
+    position: relative;   
+  }
+
+   #otherfun1 h1{
+    font-family: NotoSR;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  #otherfun1List{
+    position: relative;
+    display: flex;
+    left: 190px;
+    margin-bottom: 100px;
+    width: 900px;
+    
+
+  }
+
+  #otherfun1List img{
+    border: 1px solid #d4cece;
+  }
+
+  #otherfun1List p {
+    position: relative;
+    top: 170px;
+    right: 120px;
+  }
+
+   /* other funiture2 영역 */
+
+
+  #otherfun2List{
+    position: relative;
+    display: flex;
+    left: 190px;
+    margin-bottom: 100px;
+    width: 900px;
+  }
+
+  #otherfun2List img{
+    border: 1px solid #d4cece;
+  }
+
+  #otherfun2List p {
+    position: relative;
+    top: 170px;
+    right: 120px;
+  }
+
+
+  

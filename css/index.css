@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/* ad 영역 시작 */
+
+#header {
+  border: none;
+}
+
+.adFadein {
+  opacity:0;
+}
+
+.animation_canvas {
+  position: relative;
+  width: 1280px;
+  overflow: hidden;
+}
+
+.slider_panel {
+  width: 6400px;
+  position: relative;
+}
+
+.slider_image {
+  width: 1280px;
+  float: left;
+}
+
+#slideText {
+  position: absolute;
+  border: 1px solid black;
+  background-color: black;
+  color: #fff;;
+  opacity: 0.7;
+  height: 675px;
+  width: 400px;
+  margin-left: 440px;
+  text-align: center;
+}
+
+#slideText h2 {
+  margin: 150px 0 50px 0;
+  font-size: 30px;
+  font-family: "NotoSR";
+  line-height: 40px;
+  border: 1px solid black;
+}
+
+#slideText p {
+  line-height: 30px;
+  font-size: 15px;
+} 
+
+#viewMore {
+  position: relative;
+  bottom: 160px;
+}
+
+#viewMore p a{
+  width: 100px;
+  height: 15px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 590px;
+}
+
+
+/* .control_panel {
+  position: absolute;
+  top: 750px;
+  left: 925px;
+  height: 13px;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.control_button {
+  position: relative;
+  cursor: pointer;
+  background: url(img/point_button.png);
+  width: 12px;
+  height: 46px;
+  float: left;
+}
+ */
+
+
+.control_button:hover {
+  top: -16px;
+}
+
+.control_button.active {
+  top: -31px;
+}
+
+  /* ad 영역 끝 */
+
+
+  /* 스토리 영역 시작 */
+  .scrollFadein {
+    opacity:0;
+    margin-left:-300px;    
+    max-width:100%;
+}
+
+
+#story { 
+  margin-top: 10px;
+}
+
+  #story h1, #story h2, #news h1, #news h2  {
+    font-family: "NotoSR";
+    color: rgb(74, 71, 71);
+  }
+
+  #story a , #news a {
+    color: rgb(74, 71, 71);
+  }
+
+  #story a:hover , #news a:hover {
+    color: rgb(110, 108, 108);
+  }
+  
+  #story1 {
+    margin-top: 50px;
+  }
+
+  #story1 h1 {
+    position: relative;
+    top: 50px;
+  }
+
+
+  .storyList1 {
+    display: flex;
+  }
+
+  .storyList1 li {
+    margin: 50px 0 50px 0;
+    line-height: 25px;
+  }
+
+  .storyList1 li:nth-child(1) {
+    padding-right: 20px;   
+    
+  }
+
+  #story p, #news p {
+    font-size: 14px;
+  }
+
+  .storyList2 {
+    display: flex;
+  }
+
+  .storyList2 li {
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+
+  .storyList2 li:nth-child(1) {
+    padding-right: 20px;   
+  }
+
+  .storyList2 li:nth-child(2) {
+    padding-right: 20px;   
+  }
+
+  /* 스토리 영역 끝 */
+
+  /* 뉴스 영역 시작 */
+
+  #news h2{
+    font-family: "NotoSR";
+  }
+
+  #news p {
+    margin-bottom: 15px;
+    font-family: "NotoR";
+  }
+
+  .newsList {
+    display: flex;
+    margin-bottom: 80px;
+  }
+
+  .newsList li {
+    line-height: 25px;
+  }
+
+  .newsList li:nth-child(1) {
+    padding-right: 20px;   
+  }
+  /* 뉴스 영역 끝 */
+  
+
+  
+  /*이미지 확대 영역 */
+  .zoom1 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom1 {
+    overflow: hidden;
+    width: 754px;
+    height: 500px;
+  }
+
+  .zoom1:hover img{
+    transform: scale(1.05);
+  }
+
+  .zoom2 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom2 {
+    overflow: hidden;
+    width: 506px;
+    height: 500px;
+  }
+
+  .zoom2:hover img{
+    transform: scale(1.05);
+  }
+
+  .zoom3 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom3 {
+    overflow: hidden;
+    width: 316px;
+    height: 340px;
+  }
+
+  .zoom3:hover img{
+    transform: scale(1.05);
+  }
+
+  .zoom4 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom4 {
+    overflow: hidden;
+    width: 368px;
+    height: 340px;
+  }
+
+  .zoom4:hover img{
+    transform: scale(1.05);
+  }
+
+  .zoom5 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom5 {
+    overflow: hidden;
+    width: 556px;
+    height: 340px;
+  }
+
+  .zoom5:hover img{
+    transform: scale(1.05);
+  }
+
+  .zoom67 img {
+    max-width: 100%;
+    transition: all linear 0.4s;
+  }
+
+  .zoom67 {
+    overflow: hidden;
+    width: 630px;
+    height: 399px;
+  }
+
+  .zoom67:hover img{
+    transform: scale(1.05);
+  }

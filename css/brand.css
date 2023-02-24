@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+
+/*브랜드 메뉴 시작 */
+
+body {
+	overflow-x: hidden;
+}
+
+
+#wrapper {
+	width: 1280px;
+  margin: 0 auto;
+}
+
+#middle {
+	display: table-cell;
+	width: 1015px;
+	top: 30px;
+	right: 30px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#middle>div {
+	float: left;
+}
+#left {
+	position: absolute;
+	width: 280px;
+}
+#leftMenu {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 215px;
+	background: url(img/menu_line.gif) repeat-y center;
+}
+#leftMenu #leftTitle {
+	height: 41px;
+	line-height: 45px;
+	text-indent: 16px;
+	font-size: 16px;
+	font-weight: bold;
+	background: #fff;
+	color: #000;
+	border: 1px solid #d5d5d5;
+	border-top: 1px solid #505050;
+}
+
+#subMenu_2>ul>li>a {
+	display: block;
+	height: 33px;
+	line-height: 38px;
+	text-indent: 18px;
+	font-size: 12px;
+	font-weight: normal;
+	background: url(img/sub_line.gif) no-repeat bottom;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	cursor: pointer;
+}
+#subMenu_2>ul>li>a:hover, #subMenu_2>ul>li>a.on {
+	line-height: 36px;
+	text-indent: 19px;
+	font-weight: bold;
+	background: url(img/arrow_select.gif) no-repeat 190px 13px #ccc9c8;
+	color: #fff;
+	border: none;
+}
+ul.depth2>li>a { 
+	display: block;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 18px;
+	background: #fff;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	cursor: pointer;
+}
+ul.depth2>li>a:hover, ul.depth2>li>a.on {
+	color: #cac6c4;
+}
+ul.depth2>li:first, ul.depth2>li>a.first {
+	margin-top: 5px;
+}
+ul.depth2>li>a.last {
+	height: 38px;
+	background: url(img/sub_line_bullet.gif) no-repeat bottom;
+}
+ul.depth2 { /* 2depth */
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: url(img/sub_line_edge.gif) no-repeat bottom;
+}
+
+ul.depth2>li>a {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 18px;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	cursor: pointer;
+	padding: 8px 0 8px 0;
+}
+ul.depth2>li>a:hover, ul.depth2>li>a.on {
+	color: #c7c1be;
+}
+
+ul.depth2>li>a.last:nth-child(10) {
+	background: none;
+}
+
+#leftLine {
+	border-top: 1px solid #505050;
+}
+
+/*브랜드 메뉴 끝 */
+
+
+/*콘텐츠 영역 시작*/
+.scrollFadein {
+	opacity:0;
+}
+
+.brandRfadein {
+	opacity: 0;
+}
+
+
+#contentArea {
+  position: relative;
+  left: 50%;
+}
+
+#brandR {
+  margin: 50px 0 100px 0;
+}
+
+#brandR h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: "NotoSR";
+  
+}
+
+#brandR .rivaLogo {
+  position: relative;
+  left: 90px;
+  margin-bottom: 30px;
+}
+
+#brandR p {
+  width: 650px;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  right: 200px;
+  line-height: 25px;
+}
+
+#rivaVideo {
+	position: relative;
+	right: 220px;
+	bottom: 50px;
+}
+
+#brandDetail1 {
+	position: relative;
+	right: 305px;
+}
+
+#brandDetail1 h1{
+  font-size: 30px;
+  margin-bottom: 100px;
+  font-family: "NotoSR";
+  left: 204px;
+  position: relative;
+  margin-top: 50px;
+}
+
+#brandDetail2{
+	position: relative;
+	right: 250px;
+}
+
+
+#brandDetail2 p{
+	width: 650px;
+	height: 70px;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	left: 40px;
+	line-height: 25px;
+	margin: 50px 0 100px 0;
+}
+
+#brandDetail3 {
+	position: relative;
+	right: 250px;
+}
+
+#brandDetail3 >img {
+	width: 760px;
+}
+
+#brandDetail3 h1{
+	font-size: 30px;
+  margin-bottom: 50px;
+  font-family: "NotoSR";
+  left: 290px;
+  position: relative;
+  margin-top: 50px;
+
+}
+
+#brandDetail3 p{
+	width: 650px;
+	height: 70px;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	left: 30px;
+	line-height: 25px;
+	margin: 50px 0 150px 0;
+	
+}
+
+/*콘텐츠 영역 끝*/
+
+/* 베스트 영역 시작 */
+#best {
+	position: relative;
+    right: 500px;
+	bottom: 50px;
+	margin-bottom: 100px;
+}
+
+#best h1{
+	margin-bottom: 50px;
+    font-family: NotoSR;
+	text-align: center;
+
+  }
+
+  #bestList{
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+    width: 900px;
+	margin: 0 auto;
+  }
+
+  #bestList img{
+    border: 1px solid #d4cece;
+  }
+
+  #bestList p {
+    position: relative;
+    top: 170px;
+    right: 120px;
+  }
+
+
+#topBtn button{
+	text-decoration-line: underline;
+    cursor: pointer;
+	font-size: 15px;
+	background-color: #fff;
+	border: none;
+	position: relative;
+	left: 100px;
+	bottom: 60px;
+}
+
+
+
+
+

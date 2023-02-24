@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* memberArea 영역 시작 */
+#contentArea {
+    bottom: 30px;
+    margin-bottom: 300px;
+    padding-top: 110px;
+}
+
+#memberArea {
+    width: 800px; 
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  #memberArea h2 {
+    font-size: 18px;
+    color: #3d3d3d;
+    border-bottom: 1px solid #797472;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .basicInfo {
+    right: 370px;
+    top: 45px;
+    position: relative;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .formSign {
+    text-align: right;
+    margin: 30px 0 10px;  
+  }
+  
+  .require {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    text-indent: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .require::before {
+    font-family: "webcafeIcon";
+    content: "s";
+    color: #707070;
+    position: relative;
+    left: -10px;
+  }
+  
+  #joinForm {
+    border-top: 2px solid #ccc;  
+  }
+  
+  #joinForm p {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #joinForm label , .mailing em {
+    float: left;
+    width: 120px;
+    padding: 13px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #666;
+    border-right: 1px solid #e6e2e2;
+  }
+  
+  #joinForm .mailing label {
+    float: none;
+    width: auto;
+    padding: 0;
+    background: none;
+  }
+  
+   #joinForm input {
+    position: relative;
+    margin-left: 500px;  
+  }
+   
+  #joinForm input:not([type="radio"]) {
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    height: 18px;
+    padding-left: 5px;
+  }
+
+  input#name {
+    position: relative;
+    right: 220px;
+  } 
+
+  input#id {
+    position: relative;
+    right: 175px;
+  }
+  
+  a.idCheck{
+      font-size: 11px;
+      color: #fff;
+      background-color:  #949393;
+      padding: 3px 15px;
+      border-radius: 3px;
+      text-shadow: 1px 1px 1px #969494, -1px -1px 1px #b4aeae;
+      right: 170px;
+      position: relative;
+  }
+
+  #password, #confirmPassword{
+    position: relative;
+    right: 220px;
+  }
+
+  
+  a.findZipcode {
+    font-size: 11px;
+    color: #fff;
+    background-color: #949393;
+    padding: 4px 10px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #969494, -1px -1px 1px #b4aeae;
+    position: absolute;
+    left: 263px;
+    top: 10px;
+  }
+  
+  input#zipCode {
+    position: relative;
+    right: 269px;
+  }
+  input#address {  
+    display: block;
+    margin: 0;  
+    position: relative;
+    left: 5px;
+  }
+  
+  .labelAddress {
+    height: 57px;
+    line-height: 50px;
+  }
+
+  input#tel {
+    position: relative;
+    right: 220px;
+  }
+
+  input#email {
+    position: relative;
+    right: 185px;
+
+  }
+  
+  .mailing em {
+    font-style: normal;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .mailing span {
+    display: block;
+    margin: 4px 0;
+    position: relative;
+    top: 200px;  
+  }
+
+  .addInfo {
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border: none;
+    position: relative;
+    right: 370px;
+  }
+
+ .follow{
+  border-top: 2px solid #ccc;
+ }
+
+ select {
+  position: relative;
+  right: 241px;
+  top: 10px;
+ }
+
+ #reid {
+  position: relative;
+  right: 220px;
+ }
+  
+  .btnJoinArea {
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+    top: 150px;
+    }
+  
+  .btnJoinArea button {
+    font-size: 14px;
+    color: #fff;
+    padding: 16px 60px;
+    margin: 0 5px;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .btnOk::before {
+    font-size: 24px;
+    position: relative;
+    line-height: 0;
+    top: 7px;
+    left: -5px;
+  }
+  
+  .btnOk {
+    background:  rgb(112, 109, 109) ;
+  
+  }
+  
+  .btnCancle {
+    background: rgb(158, 155, 155) ;
+    
+  }
+  
+  
+  /* memberArea 영역 종료 */
+  
+  

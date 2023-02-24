@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/* 초기화 */
+html, body, div , header, nav, section, aside, article, footer, figure, 
+figcaption, fieldset, legend, ul, ol, li, dl, dt, dd, h1, h2, h3, p {
+  margin:0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+fieldset {
+  border:0;
+}
+
+/* 숨김 콘텐츠 */
+.hidden, legend, caption {
+  position: absolute;
+  left: -9999px;  
+}
+
+/* 기본스타일 */
+/* 웹 폰트 */
+
+@font-face {
+  font-family: "Gugi";
+  font-weight: 400;
+  src: url("font/Gugi-Regular.ttf")format("truetype");       
+}
+
+/*링크 스타일 */
+a:link{
+  color: #161616;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8a8391;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color:#c7c7c7;
+  text-decoration: none;
+}
+
+/* 기본스타일 */
+body {
+  color: #fff;
+  background-color: #fff;
+  font-size: 0.75em;
+  line-height: 1.2;
+}
+/*헤더영역*/
+
+#main_bg {
+ background-image: url("");
+ background-size: cover;
+ height: 788px;
+}
+
+#header {
+  display: flex;
+  height: 90px;
+  position: fixed;
+  background-color: #252424;
+  opacity: 0.7;
+  left:0;
+  right:0;
+  box-sizing: border-box;
+  margin: 0 auto;  
+
+}
+
+#header .logo {
+  position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#header .logo img {
+  width: 110px;
+  height: 50px;
+}
+
+.logoName {
+  position: relative;
+  left: 20px;
+
+}
+
+nav .mainMenu {
+  display: flex;
+  line-height: 90px;
+}
+
+.mainMenu li {
+  margin-left: 70px;
+  left: 260px;
+  font-size: 20px;
+  position: relative;
+
+}
+
+.subMenu {
+  display: flex;
+  line-height: 90px;
+}
+
+.subMenu li {
+  margin-left: 35px;
+  left: 350px;
+  font-size: 20px;
+  position: relative;
+
+}
+
+
+
+/*헤더영역 끝*/
+
+/* 전체 레이아웃 설계 */
+
+ #story, #contentArea, #news, #footerInner {
+  width: 1024px;
+  box-sizing: border-box;
+  margin: 0 auto;  
+}
+
+/* 푸터 영역 */
+#footer {
+  padding: 15px 0;
+  background-color: rgb(67,67,67);
+  background-size: cover;
+  
+}
+
+#footerInner {
+  position: relative;
+}
+
+#info {
+display: flex;
+margin: 30px;
+}
+
+#info p{
+  margin-left: 80px;
+  
+}
+
+#storeInfo {
+  border: 1px solid black;
+}
+
+#qaInfo {
+  border: 1px solid black;
+}
+
+
+address, .copyright {
+ position: relative;
+ margin: 0 auto;
+ color: #cccccc83;
+ text-align: center;
+}
+
+
+address{
+  font-style: normal;
+  margin-bottom: 5px;  
+}
+
+address > span {
+  margin-right: 10px;
+}
+
+
+
+

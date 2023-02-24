@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* 초기화 */
+html, body, div , header, nav, section, aside, article, footer, figure, 
+figcaption, fieldset, legend, ul, ol, li, h1, h2, p {
+  margin:0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+fieldset {
+  border:0;
+}
+
+/* 숨김 콘텐츠 */
+.hidden, legend, caption {
+  position: absolute;
+  left: -9999px;  
+}
+
+/* 기본스타일 */
+/* 웹 폰트 */
+@font-face {
+  font-family: "NotoL";
+  font-weight: 300;
+  src: url("font/NotoSansKR-Light.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "NotoR";
+  font-weight: 400;
+  src: url("font/NotoSansKR-Regular.otf")format("type");
+}
+
+@font-face {
+  font-family: "NotoM";
+  font-weight: 500;
+  src:url("font/NotoSansKR-Medium.otf")format("opentype");
+}
+
+@font-face{
+  font-family: "webcafeIcon";
+  font-weight: 400;
+  src: url("font/webcafeIcon.eot?iefix")format("embedded-opentype"),
+       url("font/webcafeIcon.woff")format("woff"),
+       url("font/webcafeIcon.ttf")format("truetype"),
+       url("font/webcafeIcon.svg#webcaferegular")format("svg");
+}
+
+@font-face{
+  font-family: "NotoSL";
+  font-weight: 300;
+  src: url("font/NotoSerifKR-Light.otf")format("opentype")    
+}
+
+@font-face{
+  font-family: "NotoSR";
+  font-weight: 400;
+  src: url("font/NotoSerifKR-Regular.otf")format("opentype")    
+}
+
+@font-face{
+  font-family: "NotoSM";
+  font-weight: 500;
+  src: url("font/NotoSerifKR-Medium.otf")format("opentype")    
+}
+
+
+/*링크 스타일 */
+a:link{
+  color: #3a3838;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5b595c;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color:#a39f9f;
+  text-decoration: none;
+}
+
+/* 기본스타일 */
+body {
+  color: #000;
+  background-color: #fff;
+  font-size: 0.75em;
+  line-height: 1.2;
+  font-family: "NotoR";
+}
+
+/* 전체 레이아웃 설계 */
+
+#header, #contentArea, #ad, #brand, #story, #news, #footerInner, #storeMap, #wrapper_2 {
+  width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;  
+}
+
+#header {
+  display: flex;
+  height: 110px;
+  left:0;
+  right:0;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  font-family: "NotoSR";
+  
+}
+
+#header .logo {
+  position: absolute;
+  left: 5%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+#header .logo img {
+  width: 110px;
+  height: 50px;
+  opacity: 0.6;
+}
+
+.logoName {
+  position: relative;
+  left: 25px;
+  font-size: 14px;
+ 
+}
+
+.mainMenu {
+  line-height: 100px;
+  display: flex;
+  left: 290px;
+  width: 700px;
+  position: relative;
+  top: 5px;
+}
+
+.mainMenu li {
+  margin-left: 70px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.mainMenu a:after {
+  display:block;
+  content: '';
+  width: 105%;
+  border-bottom: solid 1px rgb(75, 77, 77);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  bottom: 25px;
+  position: relative;
+}
+.mainMenu a:hover:after {
+  transform: scaleX(1);
+}
+
+.infoLink{
+  text-align: right;
+}
+
+.infoLink li{
+  display: inline-block;
+  padding: 15px 0 7px 3px;
+  position: relative;
+  left: 425px;
+}
+
+.infoLink a::before{
+  content: "|";
+  padding-right: 8px;  
+}
+
+.infoLink li:first-child a::before{
+  content: "";
+}
+
+/*헤더영역 끝*/
+
+/* 푸터 영역 */
+#footer {
+  padding: 15px 0;
+  background-color: rgb(67, 67, 67); 
+}
+
+#footerInner {
+  position: relative;
+  height: 130px;
+  
+}
+
+ #info {
+  text-align: center;
+  bottom: 10px;
+}
+
+.infoList li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+address, .copyright {
+ position: relative;
+ margin: 0 auto;
+ color: #cccccc83;
+ text-align: center;
+}
+
+
+address{
+  font-style: normal;
+  margin-top: 20px;
+  line-height: 17px;
+}
+
+address a:link, #info a:link{
+  color: #cccccc83;
+  text-decoration: none;
+}
+
+address a:visited, #info a:visited {
+  color: #8a8391;
+  text-decoration: none;
+}
+
+address a:hover, address a:focus, #info a:hover, #info a:focus {
+  color:#e6e4e4;
+  text-decoration: none;
+}
+
+
+.copyright {
+  top: 15px;
+}
+
+
